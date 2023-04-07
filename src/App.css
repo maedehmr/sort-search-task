@@ -1,0 +1,47 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0e91ce;
+  color: white;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 1rem;
+  margin-right: 8px;
+  margin-block: 16px;
+  cursor: pointer;
+  background-color: #0e91ce;
+  color: #fff;
+  border-radius: 2px;
+}
+
+input {
+  height: 32px;
+  outline: none;
+  width: 80%;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  padding-inline: 8px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
